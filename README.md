@@ -2,7 +2,7 @@
 
 This project implements an age prediction model using the UTKFace dataset. A Convolutional Neural Network (CNN) is trained to classify facial images into discrete 5-year age intervals ranging from 0–4 to 100+ years. The task is framed as a **multi-class classification problem**.
 
-📂 Dataset
+Dataset
 The model uses the [UTKFace dataset](https://susanqq.github.io/UTKFace/) which contains over 23,000 labeled face images in the format:  
 `[age]_[gender]_[race]_[date&time].jpg.chip.jpg`  
 Each image is processed as a 64x64 grayscale input.
